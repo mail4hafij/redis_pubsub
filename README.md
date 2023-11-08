@@ -1,5 +1,5 @@
-# redis_pubsub
-Usually redis is used as caching service but it can also be used for publish and subscribe.
+# Redis pubsub
+Usually redis is used as caching service but it can also be used for publish and subscribe. Checkout this repo https://github.com/mail4hafij/redis_cache_dotnet_core if you are interested how to cache using redis.
 
 There are two projects in this solution. Run the subscriber project first and then run the publisher.
 But first, setup a redis on docker as follows. 
