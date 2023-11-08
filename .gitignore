@@ -4,6 +4,10 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 .vs/
+publish/bin
+publish/obj
+subscriber/bin
+subscriber/obj
 
 # User-specific files
 *.rsuser
