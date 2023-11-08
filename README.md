@@ -1,9 +1,10 @@
 # redis_pubsub
-Usually redis is mostly used for caching service but it can also be used as publish and subscribe events.
+Usually redis is used as caching service but it can also be used for publish and subscribe.
 
+There are two projects in this solution. Run the subscriber project first and then run the publisher.
+But first, setup a redis on docker as follows. 
 
-
-# Redis on docker
+### Redis on docker
 
 https://redis.io/docs/getting-started/install-stack/docker/
 
@@ -16,3 +17,6 @@ embedded RedisInsight to visualize your data.
 
 The docker run command above also exposes RedisInsight on port 8001. 
 You can use RedisInsight by pointing your browser to localhost:8001.
+
+
+Enjoy!
